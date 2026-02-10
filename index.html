@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <title>Q3 Seatwork 2</title>
+    <style>
+
+        body {
+        background-image: url(https://images.unsplash.com/photo-1506606401543-2e73709cebb4?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3JTIweW9yayUyMG5pZ2h0fGVufDB8fDB8fHww);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    </style>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+
+        <a href="index.html" class="navbar-brand">Shop</a>
+        <a href="index.html" class="navbar-brand">Locate</a>
+        <a href="index.html" class="navbar-brand">Product Locator</a>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+
+            </ul>
+            <form class="d-flex ms-auto">
+                <input type="text" class="form-control me-2" placeholder="Search" style="width: 150px;">
+                <button type="button" class="btn btn-primary" style="color:#0c2d55;">Search</button>
+            </form>
+            </form>
+
+
+                
+            </div>
+        </div>
+        </nav>
+    <h1 style="color: #fe6400; font-size: 35px; font-family: 'Times New Roman', Times, serif; text-align: center;">Discount Calculator</h1><br>
+    <form style="text-align: center; margin: 20px;">
+        <input type="number" id="price" placeholder="Price" style="text-align: center;"><br>
+        <input type="number" id="discount" placeholder="Discount %" style="text-align: center;"><br>
+        <input type="button" onclick="compute_discount()" value="Compute Discounted Price">
+    </form>
+
+    <div id="result" style="color: #cbd5d0; font-size: 35px; font-family: 'Times New Roman', Times, serif; text-align: center;"></div>
+    <script src="main.js"></script>
+</body>
+</html>
